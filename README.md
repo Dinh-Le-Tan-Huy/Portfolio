@@ -12,7 +12,7 @@
 
 Experienced in building scalable end-to-end web and mobile applications within the JavaScript/TypeScript ecosystem. Strong background in React Native, Next.js, Node.js, RESTful APIs, secure authentication flows, and real-time systems. Comfortable working independently or leading a small freelance team from UI/UX design through to production deployment.
 
-- 📧 contact@huyle.dev
+- 📧 t.huy030826@gmail.com
 - 📍 Ho Chi Minh City, Vietnam
 - 🔗 [LinkedIn](https://www.linkedin.com/in/tan-huy-673408342/)
 - 🏆 TOEIC 600 | Scholarship Recipient | Top 5 Graduate Project
@@ -184,7 +184,7 @@ Animated sticky header using **Framer Motion layout animations**. The navigation
 
 Feel free to reach out for collaboration, freelance work, or job opportunities:
 
-- **Email:** contact@huyle.dev
+- **Email:** t.huy030826@gmail.com
 - **LinkedIn:** [linkedin.com/in/tan-huy-673408342](https://www.linkedin.com/in/tan-huy-673408342/)
 
 ---
