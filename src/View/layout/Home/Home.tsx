@@ -146,7 +146,7 @@ export const Home = () => {
                             title={item.title}
                             des={item.des}
                             time={item.time}
-                            responsibilities={item.responsibilities.filter(resp =>
+                            responsibilities={item.responsibilities.filter((resp: string) =>
                                 KEY_TECH_FILTER.test(resp)
                             )}
                             onActionClick={() => navigate(`/About?project=${encodeURIComponent(item.title.trim())}`)}
