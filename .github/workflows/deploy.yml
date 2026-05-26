@@ -13,13 +13,11 @@ permissions:
 
 concurrency:
   group: "pages"
-  cancel-in-progress: true
+  cancel-in-progress: false
 
 jobs:
-  deploy:
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
+  # ── Job 1: Build ─────────────────────────────────────────────────────────────
+  build:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout mã nguồn
@@ -31,20 +29,28 @@ jobs:
           node-version: 20
           cache: 'npm'
 
+      - name: Cấu hình GitHub Pages (lấy base URL trước khi build)
+        uses: actions/configure-pages@v4
+
       - name: Cài đặt thư viện (Dependencies)
-        run: npm ci # Lệnh cài đặt sạch chuẩn DevOps, nhanh và an toàn hơn npm install
+        run: npm ci
 
       - name: Biên dịch dự án (Build)
         run: npm run build
-
-      - name: Cấu hình GitHub Pages
-        uses: actions/configure-pages@v4
 
       - name: Gom thư mục dist để chuẩn bị deploy
         uses: actions/upload-pages-artifact@v3
         with:
           path: './dist'
 
+  # ── Job 2: Deploy ─────────────────────────────────────────────────────────────
+  deploy:
+    needs: build
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
       - name: Đẩy lên GitHub Pages live công khai
         id: deployment
         uses: actions/deploy-pages@v4
