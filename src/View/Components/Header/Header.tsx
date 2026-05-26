@@ -2,7 +2,7 @@ import { useState, useRef, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { Headerstyle } from "./HeaderStyle";
 import { DotGrid } from "../Dot";
-import { Link } from "react-router-dom";
+import { Link, useLocation, useNavigate } from "react-router-dom";
 import { HeaderNav } from "./HeaderData";
 import { useTranslation } from "react-i18next";
 
@@ -64,11 +64,30 @@ const CheckIcon = () => (
 
 const Header = () => {
     const { t, i18n } = useTranslation();
+    const location = useLocation();
+    const navigate = useNavigate();
     const [open, setOpen] = useState(false);
     const [gridHover, setGridHover] = useState(false);
     const [langOpen, setLangOpen] = useState(false);
     const [langHover, setLangHover] = useState<string | null>(null);
     const langRef = useRef<HTMLDivElement>(null);
+
+    // Compute the FAQ path for the current page
+    const faqPath = location.pathname === "/about" ? "/about#FAQ" : "/#FAQ";
+
+    const handleFaqClick = (e: React.MouseEvent) => {
+        e.preventDefault();
+        const targetPath = location.pathname === "/about" ? "/about" : "/";
+        if (location.pathname === targetPath) {
+            document.getElementById("FAQ")?.scrollIntoView({ behavior: "smooth" });
+        } else {
+            navigate(faqPath);
+            setTimeout(() => {
+                document.getElementById("FAQ")?.scrollIntoView({ behavior: "smooth" });
+            }, 300);
+        }
+        setOpen(false);
+    };
 
     // Close lang popup on outside click
     useEffect(() => {
@@ -113,12 +132,18 @@ const Header = () => {
                     >
                         <div style={Headerstyle.NavListWrapper}>
                             {HeaderNav.map((item, index) => (
-                                <Link to={item.path} key={index} style={{ textDecoration: "none" }}>
+                                <Link to={item.path} key={index} style={{ textDecoration: "none" }} onClick={() => setOpen(false)}>
                                     <span style={Headerstyle.NavLink}>
                                         {t(`nav.${item.key}`)}
                                     </span>
                                 </Link>
                             ))}
+                            {/* Dynamic FAQ link */}
+                            <a href={faqPath} style={{ textDecoration: "none" }} onClick={handleFaqClick}>
+                                <span style={Headerstyle.NavLink}>
+                                    {t("nav.faq")}
+                                </span>
+                            </a>
                         </div>
                     </motion.div>
                 )}
@@ -133,10 +158,10 @@ const Header = () => {
                             ...Headerstyle.LangButton,
                             ...(langOpen
                                 ? {
-                                      borderColor: "rgba(0,216,255,0.35)",
-                                      backgroundColor: "rgba(0,216,255,0.08)",
-                                      color: "#00d8ff",
-                                  }
+                                    borderColor: "rgba(0,216,255,0.35)",
+                                    backgroundColor: "rgba(0,216,255,0.08)",
+                                    color: "#00d8ff",
+                                }
                                 : {}),
                         }}
                         onClick={() => setLangOpen((v) => !v)}
@@ -172,9 +197,9 @@ const Header = () => {
                                                     : Headerstyle.LangOption),
                                                 ...(isHovered && !isActive
                                                     ? {
-                                                          backgroundColor: "rgba(255,255,255,0.05)",
-                                                          color: "#e8edf5",
-                                                      }
+                                                        backgroundColor: "rgba(255,255,255,0.05)",
+                                                        color: "#e8edf5",
+                                                    }
                                                     : {}),
                                             }}
                                             onClick={() => {

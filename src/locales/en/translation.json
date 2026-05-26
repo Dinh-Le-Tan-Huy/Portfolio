@@ -1,165 +1,23 @@
 {
-    "skillsData": [
-        {
-            "id": "skills_lang_01",
-            "title": "Languages",
-            "des": "Core Programming Languages",
-            "responsibilities": [
-                "JavaScript",
-                "TypeScript",
-                "Dart",
-                "Java",
-                "Kotlin"
-            ]
+    "contactPage": {
+        "heading": "Let's Connect",
+        "subheading": "I am always open to discussing new projects, collaboration opportunities, or general inquiries. Feel free to fill out the form or reach out directly.",
+        "emailLabel": "Email",
+        "phoneLabel": "Phone",
+        "locationLabel": "Location",
+        "location": "Ho Chi Minh City, Vietnam",
+        "resume": "Resume",
+        "form": {
+            "namePlaceholder": "Huy Le",
+            "emailPlaceholder": "t.huy030826@gmail.com",
+            "messagePlaceholder": "Tell me about your project requirements, goals, or questions...",
+            "nameLabel": "Name*",
+            "emailLabel": "Email*",
+            "messageLabel": "Message",
+            "send": "Send Message",
+            "sending": "Sending..."
         },
-        {
-            "id": "skills_fw_02",
-            "title": "Frameworks & Libraries",
-            "des": "Modern Web & Mobile Development",
-            "responsibilities": [
-                "React.js & Next.js",
-                "React Native",
-                "Flutter",
-                "Jetpack Compose"
-            ]
-        },
-        {
-            "id": "skills_be_03",
-            "title": "Backend & Database",
-            "des": "Server-side & Infrastructure",
-            "responsibilities": [
-                "Node.js",
-                "Express",
-                "MongoDB"
-            ]
-        },
-        {
-            "id": "skills_concepts_04",
-            "title": "Architecture & Concepts",
-            "des": "Software Design & Methodologies",
-            "responsibilities": [
-                "App Life-cycle",
-                "Clean Architecture",
-                "MVVM (Model-View-ViewModel)",
-                "RESTful API Integration",
-                "Agile/Scrum Workflow"
-            ]
-        },
-        {
-            "id": "skills_tools_05",
-            "title": "Development Tools",
-            "des": "Productivity & Collaboration Tools",
-            "responsibilities": [
-                "Figma (Design UI/UX)",
-                "Postman & Swagger",
-                "Docker",
-                "GitHub (Version Control)",
-                "Jira & Trello (Management)"
-            ]
-        }
-    ],
-    "projectsData": [
-        {
-            "id": "proj_homenest_01",
-            "title": "HomeNest Software",
-            "time": "Aug 2024 - Present",
-            "des": "Web/Mobile Developer",
-            "responsibilities": [
-                "Developed both a cross-platform mobile application (React Native, TypeScript) and an SEO optimized web platform (Next.js, React).",
-                "Configured WordPress CMS and GraphQL for dynamic web content.",
-                "Integrated Helcim payments via JS Bridge/WebView with real-time synchronization.",
-                "Integrated react-i18next for React Native app localization (i18n).",
-                "Integrated Socket.IO with RTK Query for zero-latency chat, direct cache updates, and on-demand subscriptions.",
-                "Built RESTful APIs and backend services utilizing Node.js, Prisma, and PostgreSQL (managed via pgAdmin & Docker), implementing secure authentication flows (JWT, OTP, Google Login).",
-                "Designed interactive API documentation via Swagger UI, ensuring seamless API testing and frontend-backend synchronization.",
-                "Supported deployed apps to Appstore and Google Play, resolving technical rejections.",
-                "Collaborated in an Agile/Scrum environment, utilizing Jira for task tracking and daily stand-ups."
-            ]
-        },
-        {
-            "id": "proj_choixanh_02",
-            "title": "Choi Xanh Media",
-            "time": "Nov 2024 - Jan 2025",
-            "des": "Mobile Developer",
-            "responsibilities": [
-                "Developed a full-stack Food Delivery application, building a high-performance mobile interface (Flutter, Dart) and scalable backend services (Node.js, MongoDB).",
-                "Architected mobile front-end solutions: Implemented Service Layer architecture and AutoRoute for robust navigation, while enhancing UI/UX with Flutter Animations, optimized lists (ListView.builder), and dynamic media handling (ImageKit).",
-                "Built secure backend APIs & integrations: Developed RESTful APIs using Express, integrated multi-method authentication (Social Login & Email OTP), and utilized Mapbox API for location-based delivery features.",
-                "Streamlined deployment workflows: Automated CI/CD pipelines utilizing Codemagic and GitHub Actions to ensure stable data flow and rapid releases within an Agile/Jira environment."
-            ]
-        }
-    ],
-    "educationData": [
-        {
-            "id": "edu_01",
-            "title": "Professional Training",
-            "des": "Certificates & Specialized Courses",
-            "responsibilities": [
-                "AWS Cloud Computing Course – Udemy | 2026",
-                "React Native Developer – CSC / University of Science | 2025"
-            ]
-        },
-        {
-            "id": "edu_lang_02",
-            "title": "Languages",
-            "des": "English Proficiency",
-            "responsibilities": [
-                "TOEIC 600 (Official Certificate)"
-            ]
-        }
-    ],
-    "awardsData": [
-        {
-            "id": "award_01",
-            "title": "Academic Scholarship",
-            "des": "LTTC (Language & Technology Training Center)",
-            "responsibilities": [
-                "Awarded 50% Tuition Scholarship for outstanding academic performance.",
-                "Recognized for maintaining high GPA and active contribution to the learning community."
-            ]
-        },
-        {
-            "id": "award_02",
-            "title": "Top 5 Final Project",
-            "des": "LTTC Mobile App Showcase (2024)",
-            "responsibilities": [
-                "Recognized as one of the top 5 best-performing projects in the graduation showcase.",
-                "Evaluated based on UI/UX Design, Technical Complexity, and Problem-Solving capabilities."
-            ]
-        }
-    ],
-    "clientFAQs": [
-        {
-            "question": "What types of projects does your freelance team handle?",
-            "answer": "We deliver a wide range of digital solutions, including corporate websites, personal portfolios, landing pages, full-scale mobile apps (iOS/Android), and custom web/app systems tailored to specific business needs."
-        },
-        {
-            "question": "How does the payment process work for freelance projects?",
-            "answer": "We offer two flexible models: Fixed-price for projects with clearly defined scopes, and Milestone-based payment, where you pay progressively as we complete and deliver agreed-upon phases of the project."
-        },
-        {
-            "question": "What does the project handover process look like?",
-            "answer": "We ensure a transparent 3-step handover: User Acceptance Testing (UAT) on the beta version, complete transfer of all digital assets (Source Code, Database, App Store/Google Play accounts), and hands-on training to help you operate the system confidently."
-        },
-        {
-            "question": "Do you offer post-launch maintenance and support?",
-            "answer": "Absolutely. After the handover, we provide a committed maintenance period to resolve any technical issues, ensure server stability, and support your team in running the application smoothly."
-        }
-    ],
-    "nav": {
-        "home": "Home",
-        "about": "About",
-        "faq": "FAQ",
-        "contact": "Contact"
-    },
-    "lang": {
-        "label": "Language",
-        "en": "English",
-        "vi": "Tiếng Việt"
-    },
-    "faqs": {
-        "title": "Frequently Asked Questions",
-        "hr_q1": "Are you available for freelance projects?"
+        "projectTemplate": "Hi Huy, I'm reaching out to discuss your project: "
     },
     "aboutPage": {
         "greeting": "Hi there, ",
@@ -181,7 +39,169 @@
             "coursesAndLanguages": "Courses & Languages",
             "honorsAndRecognition": "Honors & Recognition",
             "frequentlyAskedQuestions": "Frequently Asked Questions"
-        }
+        },
+        "skillsData": [
+            {
+                "id": "skills_lang_01",
+                "title": "Languages",
+                "des": "Core Programming Languages",
+                "responsibilities": [
+                    "JavaScript",
+                    "TypeScript",
+                    "Dart",
+                    "Java",
+                    "Kotlin"
+                ]
+            },
+            {
+                "id": "skills_fw_02",
+                "title": "Frameworks & Libraries",
+                "des": "Modern Web & Mobile Development",
+                "responsibilities": [
+                    "React.js & Next.js",
+                    "React Native",
+                    "Flutter",
+                    "Jetpack Compose"
+                ]
+            },
+            {
+                "id": "skills_be_03",
+                "title": "Backend & Database",
+                "des": "Server-side & Infrastructure",
+                "responsibilities": [
+                    "Node.js",
+                    "Express",
+                    "MongoDB"
+                ]
+            },
+            {
+                "id": "skills_concepts_04",
+                "title": "Architecture & Concepts",
+                "des": "Software Design & Methodologies",
+                "responsibilities": [
+                    "App Life-cycle",
+                    "Clean Architecture",
+                    "MVVM (Model-View-ViewModel)",
+                    "RESTful API Integration",
+                    "Agile/Scrum Workflow"
+                ]
+            },
+            {
+                "id": "skills_tools_05",
+                "title": "Development Tools",
+                "des": "Productivity & Collaboration Tools",
+                "responsibilities": [
+                    "Figma (Design UI/UX)",
+                    "Postman & Swagger",
+                    "Docker",
+                    "GitHub (Version Control)",
+                    "Jira & Trello (Management)"
+                ]
+            }
+        ],
+        "projectsData": [
+            {
+                "id": "proj_homenest_01",
+                "title": "HomeNest Software",
+                "time": "Aug 2024 - Present",
+                "des": "Web/Mobile Developer",
+                "responsibilities": [
+                    "Developed both a cross-platform mobile application (React Native, TypeScript) and an SEO optimized web platform (Next.js, React).",
+                    "Configured WordPress CMS and GraphQL for dynamic web content.",
+                    "Integrated Helcim payments via JS Bridge/WebView with real-time synchronization.",
+                    "Integrated react-i18next for React Native app localization (i18n).",
+                    "Integrated Socket.IO with RTK Query for zero-latency chat, direct cache updates, and on-demand subscriptions.",
+                    "Built RESTful APIs and backend services utilizing Node.js, Prisma, and PostgreSQL (managed via pgAdmin & Docker), implementing secure authentication flows (JWT, OTP, Google Login).",
+                    "Designed interactive API documentation via Swagger UI, ensuring seamless API testing and frontend-backend synchronization.",
+                    "Supported deployed apps to Appstore and Google Play, resolving technical rejections.",
+                    "Collaborated in an Agile/Scrum environment, utilizing Jira for task tracking and daily stand-ups."
+                ]
+            },
+            {
+                "id": "proj_choixanh_02",
+                "title": "Choi Xanh Media",
+                "time": "Nov 2024 - Jan 2025",
+                "des": "Mobile Developer",
+                "responsibilities": [
+                    "Developed a full-stack Food Delivery application, building a high-performance mobile interface (Flutter, Dart) and scalable backend services (Node.js, MongoDB).",
+                    "Architected mobile front-end solutions: Implemented Service Layer architecture and AutoRoute for robust navigation, while enhancing UI/UX with Flutter Animations, optimized lists (ListView.builder), and dynamic media handling (ImageKit).",
+                    "Built secure backend APIs & integrations: Developed RESTful APIs using Express, integrated multi-method authentication (Social Login & Email OTP), and utilized Mapbox API for location-based delivery features.",
+                    "Streamlined deployment workflows: Automated CI/CD pipelines utilizing Codemagic and GitHub Actions to ensure stable data flow and rapid releases within an Agile/Jira environment."
+                ]
+            }
+        ],
+        "educationData": [
+            {
+                "id": "edu_01",
+                "title": "Professional Training",
+                "des": "Certificates & Specialized Courses",
+                "responsibilities": [
+                    "AWS Cloud Computing Course \u2013 Udemy | 2026",
+                    "React Native Developer \u2013 CSC / University of Science | 2025"
+                ]
+            },
+            {
+                "id": "edu_lang_02",
+                "title": "Languages",
+                "des": "English Proficiency",
+                "responsibilities": [
+                    "TOEIC 600 (Official Certificate)"
+                ]
+            }
+        ],
+        "awardsData": [
+            {
+                "id": "award_01",
+                "title": "Academic Scholarship",
+                "des": "LTTC (Language & Technology Training Center)",
+                "responsibilities": [
+                    "Awarded 50% Tuition Scholarship for outstanding academic performance.",
+                    "Recognized for maintaining high GPA and active contribution to the learning community."
+                ]
+            },
+            {
+                "id": "award_02",
+                "title": "Top 5 Final Project",
+                "des": "LTTC Mobile App Showcase (2024)",
+                "responsibilities": [
+                    "Recognized as one of the top 5 best-performing projects in the graduation showcase.",
+                    "Evaluated based on UI/UX Design, Technical Complexity, and Problem-Solving capabilities."
+                ]
+            }
+        ],
+        "clientFAQs": [
+            {
+                "question": "What types of projects does your freelance team handle?",
+                "answer": "We deliver a wide range of digital solutions, including corporate websites, personal portfolios, landing pages, full-scale mobile apps (iOS/Android), and custom web/app systems tailored to specific business needs."
+            },
+            {
+                "question": "How does the payment process work for freelance projects?",
+                "answer": "We offer two flexible models: Fixed-price for projects with clearly defined scopes, and Milestone-based payment, where you pay progressively as we complete and deliver agreed-upon phases of the project."
+            },
+            {
+                "question": "What does the project handover process look like?",
+                "answer": "We ensure a transparent 3-step handover: User Acceptance Testing (UAT) on the beta version, complete transfer of all digital assets (Source Code, Database, App Store/Google Play accounts), and hands-on training to help you operate the system confidently."
+            },
+            {
+                "question": "Do you offer post-launch maintenance and support?",
+                "answer": "Absolutely. After the handover, we provide a committed maintenance period to resolve any technical issues, ensure server stability, and support your team in running the application smoothly."
+            }
+        ]
+    },
+    "nav": {
+        "home": "Home",
+        "about": "About",
+        "faq": "FAQ",
+        "contact": "Contact"
+    },
+    "lang": {
+        "label": "Language",
+        "en": "English",
+        "vi": "Tiếng Việt"
+    },
+    "faqs": {
+        "title": "Frequently Asked Questions",
+        "hr_q1": "Are you available for freelance projects?"
     },
     "homePage": {
         "statusBadge": "Available for new opportunities",

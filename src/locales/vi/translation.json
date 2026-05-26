@@ -1,151 +1,25 @@
 {
-    "skillsData": [
-        {
-            "id": "skills_lang_01",
-            "title": "Ngôn ngữ lập trình",
-            "des": "Các ngôn ngữ cốt lõi",
-            "responsibilities": [
-                "JavaScript",
-                "TypeScript",
-                "Dart",
-                "Java",
-                "Kotlin"
-            ]
+    "contactPage": {
+        "heading": "Kết nối với tôi",
+        "subheading": "Tôi luôn sẵn sàng thảo luận về các dự án mới, cơ hội hợp tác hoặc các câu hỏi chung. Hãy điền vào mẫu hoặc liên hệ trực tiếp với tôi.",
+        "emailLabel": "Email",
+        "phoneLabel": "Số điện thoại",
+        "locationLabel": "Vị trí",
+        "location": "Thành phố Hồ Chí Minh, Việt Nam",
+        "resume": "Hồ sơ",
+        "form": {
+            "namePlaceholder": "Huy Le",
+            "emailPlaceholder": "t.huy030826@gmail.com",
+            "messagePlaceholder": "Hãy cho tôi biết về yêu cầu, mục tiêu hoặc câu hỏi của bạn...",
+            "nameLabel": "Tên*",
+            "emailLabel": "Email*",
+            "messageLabel": "Tin nhắn",
+            "send": "Gửi tin nhắn",
+            "sending": "Đang gửi..."
         },
-        {
-            "id": "skills_fw_02",
-            "title": "Frameworks & Thư viện",
-            "des": "Phát triển Web & Mobile hiện đại",
-            "responsibilities": [
-                "React.js & Next.js",
-                "React Native",
-                "Flutter",
-                "Jetpack Compose"
-            ]
-        },
-        {
-            "id": "skills_be_03",
-            "title": "Backend & Cơ sở dữ liệu",
-            "des": "Phía máy chủ & Hạ tầng",
-            "responsibilities": [
-                "Node.js",
-                "Express",
-                "MongoDB"
-            ]
-        },
-        {
-            "id": "skills_concepts_04",
-            "title": "Kiến trúc & Khái niệm",
-            "des": "Thiết kế phần mềm & Phương pháp luận",
-            "responsibilities": [
-                "Vòng đời ứng dụng (App Life-cycle)",
-                "Kiến trúc sạch (Clean Architecture)",
-                "MVVM (Model-View-ViewModel)",
-                "Tích hợp RESTful API",
-                "Quy trình Agile/Scrum"
-            ]
-        },
-        {
-            "id": "skills_tools_05",
-            "title": "Công cụ phát triển",
-            "des": "Công cụ năng suất & Cộng tác",
-            "responsibilities": [
-                "Figma (Thiết kế UI/UX)",
-                "Postman & Swagger",
-                "Docker",
-                "GitHub (Quản lý phiên bản)",
-                "Jira & Trello (Quản lý dự án)"
-            ]
-        }
-    ],
-    "projectsData": [
-        {
-            "id": "proj_homenest_01",
-            "title": "Công ty HomeNest Software",
-            "time": "Tháng 8/2024 - Hiện tại",
-            "des": "Lập trình viên Web/Mobile",
-            "responsibilities": [
-                "Phát triển ứng dụng di động đa nền tảng (React Native, TypeScript) và nền tảng web chuẩn SEO (Next.js, React).",
-                "Cấu hình WordPress CMS và GraphQL cho nội dung web động.",
-                "Tích hợp cổng thanh toán Helcim qua JS Bridge/WebView với đồng bộ hóa thời gian thực.",
-                "Tích hợp react-i18next để đa ngôn ngữ hóa (i18n) ứng dụng React Native.",
-                "Tích hợp Socket.IO với RTK Query để xử lý chat realtime không độ trễ, cập nhật bộ nhớ đệm (cache) trực tiếp và đăng ký theo yêu cầu.",
-                "Xây dựng RESTful APIs và các dịch vụ backend bằng Node.js, Prisma và PostgreSQL (quản lý qua pgAdmin & Docker), triển khai các luồng xác thực bảo mật (JWT, OTP, Google Login).",
-                "Thiết kế tài liệu API tương tác qua Swagger UI, đảm bảo việc test API và đồng bộ Frontend-Backend diễn ra liền mạch.",
-                "Hỗ trợ triển khai ứng dụng lên App Store và Google Play, xử lý các vấn đề từ chối kỹ thuật (technical rejections) từ store.",
-                "Làm việc trong môi trường Agile/Scrum, sử dụng Jira để theo dõi tiến độ công việc và họp hằng ngày (daily stand-ups)."
-            ]
-        },
-        {
-            "id": "proj_choixanh_02",
-            "title": "Công ty Choi Xanh Media",
-            "time": "Tháng 11/2024 - Tháng 1/2025",
-            "des": "Lập trình viên Mobile",
-            "responsibilities": [
-                "Phát triển ứng dụng giao đồ ăn Full-stack, xây dựng giao diện mobile hiệu suất cao (Flutter, Dart) và dịch vụ backend dễ mở rộng (Node.js, MongoDB).",
-                "Thiết kế kiến trúc front-end mobile: Áp dụng Service Layer và AutoRoute để điều hướng mượt mà, đồng thời nâng cao UI/UX với Flutter Animations, tối ưu hóa danh sách (ListView.builder) và xử lý media động (ImageKit).",
-                "Xây dựng backend APIs & luồng tích hợp bảo mật: Phát triển RESTful APIs bằng Express, tích hợp xác thực đa phương thức (Social Login & Email OTP) và sử dụng Mapbox API cho các tính năng giao hàng dựa trên vị trí.",
-                "Tối ưu hóa quy trình triển khai: Tự động hóa luồng CI/CD bằng Codemagic và GitHub Actions để đảm bảo luồng dữ liệu ổn định và release nhanh chóng trong môi trường Agile/Jira."
-            ]
-        }
-    ],
-    "educationData": [
-        {
-            "id": "edu_01",
-            "title": "Đào tạo chuyên môn",
-            "des": "Chứng chỉ & Khóa học chuyên sâu",
-            "responsibilities": [
-                "Khóa học Điện toán đám mây AWS – Udemy | 2026",
-                "Lập trình viên React Native – Trung tâm Tin học KHTN | 2025"
-            ]
-        },
-        {
-            "id": "edu_lang_02",
-            "title": "Ngoại ngữ",
-            "des": "Năng lực tiếng Anh",
-            "responsibilities": [
-                "TOEIC 600 (Chứng chỉ chính thức)"
-            ]
-        }
-    ],
-    "awardsData": [
-        {
-            "id": "award_01",
-            "title": "Học bổng học thuật",
-            "des": "Trường Cao đẳng Lý Tự Trọng (LTTC)",
-            "responsibilities": [
-                "Đạt học bổng 50% học phí nhờ thành tích học tập xuất sắc.",
-                "Được ghi nhận vì duy trì điểm trung bình (GPA) cao và tích cực đóng góp cho cộng đồng học tập."
-            ]
-        },
-        {
-            "id": "award_02",
-            "title": "Top 5 Đồ án tốt nghiệp",
-            "des": "Triển lãm Ứng dụng Di động LTTC (2024)",
-            "responsibilities": [
-                "Được vinh danh là một trong 5 đồ án xuất sắc nhất trong buổi triển lãm tốt nghiệp.",
-                "Được đánh giá dựa trên thiết kế UI/UX, độ phức tạp kỹ thuật và khả năng giải quyết vấn đề."
-            ]
-        }
-    ],
-    "clientFAQs": [
-        {
-            "question": "Team nhận thực hiện những loại dự án nào?",
-            "answer": "Chúng tôi nhận phát triển đa dạng các sản phẩm số, từ Website doanh nghiệp, Portfolio cá nhân, Landing page, Mobile App (iOS/Android) đến các hệ thống Web/App được thiết kế theo yêu cầu riêng."
-        },
-        {
-            "question": "Hình thức thanh toán cho dự án diễn ra như thế nào?",
-            "answer": "Chúng tôi linh hoạt với 2 hình thức: Trọn gói (Fixed-price) cho dự án đã chốt sẵn tính năng, hoặc Thanh toán theo giai đoạn (Milestone-based) – hoàn thành và nghiệm thu đến đâu, thanh toán đến đó."
-        },
-        {
-            "question": "Quy trình bàn giao sản phẩm gồm những gì?",
-            "answer": "Gồm 3 bước minh bạch: Khách hàng nghiệm thu thực tế (UAT) trên bản Beta, bàn giao toàn bộ tài sản số (Source Code, Database, tài khoản App Store/Google Play), và hướng dẫn trực tiếp để khách hàng tự tin vận hành hệ thống."
-        },
-        {
-            "question": "Team có hỗ trợ bảo trì sau khi hoàn thành không?",
-            "answer": "Chắc chắn rồi. Sau khi bàn giao, chúng tôi cung cấp một khoảng thời gian bảo trì cam kết để giải quyết mọi vấn đề kỹ thuật, đảm bảo server ổn định và hỗ trợ team của bạn vận hành trơn tru."
-        }
-    ],
+        "projectTemplate": "Xin chào Huy, tôi muốn thảo luận về dự án của bạn: "
+    },
+
     "nav": {
         "home": "Trang chủ",
         "about": "Giới thiệu",
@@ -181,7 +55,154 @@
             "coursesAndLanguages": "Khóa học & Ngoại ngữ",
             "honorsAndRecognition": "Danh hiệu & Giải thưởng",
             "frequentlyAskedQuestions": "Câu hỏi Thường gặp"
-        }
+        },
+        "skillsData": [
+            {
+                "id": "skills_lang_01",
+                "title": "Ngôn ngữ lập trình",
+                "des": "Các ngôn ngữ cốt lõi",
+                "responsibilities": [
+                    "JavaScript",
+                    "TypeScript",
+                    "Dart",
+                    "Java",
+                    "Kotlin"
+                ]
+            },
+            {
+                "id": "skills_fw_02",
+                "title": "Frameworks & Thư viện",
+                "des": "Phát triển Web & Mobile hiện đại",
+                "responsibilities": [
+                    "React.js & Next.js",
+                    "React Native",
+                    "Flutter",
+                    "Jetpack Compose"
+                ]
+            },
+            {
+                "id": "skills_be_03",
+                "title": "Backend & Cơ sở dữ liệu",
+                "des": "Phía máy chủ & Hạ tầng",
+                "responsibilities": [
+                    "Node.js",
+                    "Express",
+                    "MongoDB"
+                ]
+            },
+            {
+                "id": "skills_concepts_04",
+                "title": "Kiến trúc & Khái niệm",
+                "des": "Thiết kế phần mềm & Phương pháp luận",
+                "responsibilities": [
+                    "Vòng đời ứng dụng (App Life-cycle)",
+                    "Kiến trúc sạch (Clean Architecture)",
+                    "MVVM (Model-View-ViewModel)",
+                    "Tích hợp RESTful API",
+                    "Quy trình Agile/Scrum"
+                ]
+            },
+            {
+                "id": "skills_tools_05",
+                "title": "Công cụ phát triển",
+                "des": "Công cụ năng suất & Cộng tác",
+                "responsibilities": [
+                    "Figma (Thiết kế UI/UX)",
+                    "Postman & Swagger",
+                    "Docker",
+                    "GitHub (Quản lý phiên bản)",
+                    "Jira & Trello (Quản lý dự án)"
+                ]
+            }
+        ],
+        "projectsData": [
+            {
+                "id": "proj_homenest_01",
+                "title": "Công ty HomeNest Software",
+                "time": "Tháng 8/2024 - Hiện tại",
+                "des": "Lập trình viên Web/Mobile",
+                "responsibilities": [
+                    "Phát triển ứng dụng di động đa nền tảng (React Native, TypeScript) và nền tảng web chuẩn SEO (Next.js, React).",
+                    "Cấu hình WordPress CMS và GraphQL cho nội dung web động.",
+                    "Tích hợp cổng thanh toán Helcim qua JS Bridge/WebView với đồng bộ hóa thời gian thực.",
+                    "Tích hợp react-i18next để đa ngôn ngữ hóa (i18n) ứng dụng React Native.",
+                    "Tích hợp Socket.IO với RTK Query để xử lý chat realtime không độ trễ, cập nhật bộ nhớ đệm (cache) trực tiếp và đăng ký theo yêu cầu.",
+                    "Xây dựng RESTful APIs và các dịch vụ backend bằng Node.js, Prisma và PostgreSQL (quản lý qua pgAdmin & Docker), triển khai các luồng xác thực bảo mật (JWT, OTP, Google Login).",
+                    "Thiết kế tài liệu API tương tác qua Swagger UI, đảm bảo việc test API và đồng bộ Frontend-Backend diễn ra liền mạch.",
+                    "Hỗ trợ triển khai ứng dụng lên App Store và Google Play, xử lý các vấn đề từ chối kỹ thuật (technical rejections) từ store.",
+                    "Làm việc trong môi trường Agile/Scrum, sử dụng Jira để theo dõi tiến độ công việc và họp hằng ngày (daily stand-ups)."
+                ]
+            },
+            {
+                "id": "proj_choixanh_02",
+                "title": "Công ty Choi Xanh Media",
+                "time": "Tháng 11/2024 - Tháng 1/2025",
+                "des": "Lập trình viên Mobile",
+                "responsibilities": [
+                    "Phát triển ứng dụng giao đồ ăn Full-stack, xây dựng giao diện mobile hiệu suất cao (Flutter, Dart) và dịch vụ backend dễ mở rộng (Node.js, MongoDB).",
+                    "Thiết kế kiến trúc front-end mobile: Áp dụng Service Layer và AutoRoute để điều hướng mượt mà, đồng thời nâng cao UI/UX với Flutter Animations, tối ưu hóa danh sách (ListView.builder) và xử lý media động (ImageKit).",
+                    "Xây dựng backend APIs & luồng tích hợp bảo mật: Phát triển RESTful APIs bằng Express, tích hợp xác thực đa phương thức (Social Login & Email OTP) và sử dụng Mapbox API cho các tính năng giao hàng dựa trên vị trí.",
+                    "Tối ưu hóa quy trình triển khai: Tự động hóa luồng CI/CD bằng Codemagic và GitHub Actions để đảm bảo luồng dữ liệu ổn định và release nhanh chóng trong môi trường Agile/Jira."
+                ]
+            }
+        ],
+        "educationData": [
+            {
+                "id": "edu_01",
+                "title": "Đào tạo chuyên môn",
+                "des": "Chứng chỉ & Khóa học chuyên sâu",
+                "responsibilities": [
+                    "Khóa học Điện toán đám mây AWS – Udemy | 2026",
+                    "Lập trình viên React Native – Trung tâm Tin học KHTN | 2025"
+                ]
+            },
+            {
+                "id": "edu_lang_02",
+                "title": "Ngoại ngữ",
+                "des": "Năng lực tiếng Anh",
+                "responsibilities": [
+                    "TOEIC 600 (Chứng chỉ chính thức)"
+                ]
+            }
+        ],
+        "awardsData": [
+            {
+                "id": "award_01",
+                "title": "Học bổng học thuật",
+                "des": "Trường Cao đẳng Lý Tự Trọng (LTTC)",
+                "responsibilities": [
+                    "Đạt học bổng 50% học phí nhờ thành tích học tập xuất sắc.",
+                    "Được ghi nhận vì duy trì điểm trung bình (GPA) cao và tích cực đóng góp cho cộng đồng học tập."
+                ]
+            },
+            {
+                "id": "award_02",
+                "title": "Top 5 Đồ án tốt nghiệp",
+                "des": "Triển lãm Ứng dụng Di động LTTC (2024)",
+                "responsibilities": [
+                    "Được vinh danh là một trong 5 đồ án xuất sắc nhất trong buổi triển lãm tốt nghiệp.",
+                    "Được đánh giá dựa trên thiết kế UI/UX, độ phức tạp kỹ thuật và khả năng giải quyết vấn đề."
+                ]
+            }
+        ],
+        "clientFAQs": [
+            {
+                "question": "Team nhận thực hiện những loại dự án nào?",
+                "answer": "Chúng tôi nhận phát triển đa dạng các sản phẩm số, từ Website doanh nghiệp, Portfolio cá nhân, Landing page, Mobile App (iOS/Android) đến các hệ thống Web/App được thiết kế theo yêu cầu riêng."
+            },
+            {
+                "question": "Hình thức thanh toán cho dự án diễn ra như thế nào?",
+                "answer": "Chúng tôi linh hoạt với 2 hình thức: Trọn gói (Fixed-price) cho dự án đã chốt sẵn tính năng, hoặc Thanh toán theo giai đoạn (Milestone-based) – hoàn thành và nghiệm thu đến đâu, thanh toán đến đó."
+            },
+            {
+                "question": "Quy trình bàn giao sản phẩm gồm những gì?",
+                "answer": "Gồm 3 bước minh bạch: Khách hàng nghiệm thu thực tế (UAT) trên bản Beta, bàn giao toàn bộ tài sản số (Source Code, Database, tài khoản App Store/Google Play), và hướng dẫn trực tiếp để khách hàng tự tin vận hành hệ thống."
+            },
+            {
+                "question": "Team có hỗ trợ bảo trì sau khi hoàn thành không?",
+                "answer": "Chắc chắn rồi. Sau khi bàn giao, chúng tôi cung cấp một khoảng thời gian bảo trì cam kết để giải quyết mọi vấn đề kỹ thuật, đảm bảo server ổn định và hỗ trợ team của bạn vận hành trơn tru."
+            }
+        ]
     },
     "homePage": {
         "statusBadge": "Sẵn sàng cho các cơ hội mới",

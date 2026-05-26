@@ -3,6 +3,7 @@ import { useSearchParams } from 'react-router-dom';
 import Input from '../../Components/Input/Input';
 import { ContactStyle } from './ContactStyle';
 import { useContact } from '../../../ViewModel/useContact';
+import { useTranslation } from 'react-i18next';
 
 const SocialLink = ({ label, href }: { label: string; href: string }) => {
     const [isHover, setIsHover] = useState(false);
@@ -30,7 +31,7 @@ const EmailLink = ({ email }: { email: string }) => {
             href={`mailto:${email}`}
             style={{
                 ...ContactStyle.infoValue,
-                color: isHover ? "#60a5fa" : "#f1f5f9", // Soft light blue on hover for professional feel
+                color: isHover ? "#60a5fa" : "#f1f5f9",
             }}
             onMouseEnter={() => setIsHover(true)}
             onMouseLeave={() => setIsHover(false)}
@@ -41,6 +42,7 @@ const EmailLink = ({ email }: { email: string }) => {
 };
 
 const Contact = () => {
+    const { t } = useTranslation();
     const {
         email, name, message, isLoading, submitted, isFormValid, errors,
         handleChangeField, handleSend
@@ -53,9 +55,9 @@ const Contact = () => {
     useEffect(() => {
         const project = searchParams.get('project');
         if (project) {
-            handleChangeField('message', `Hi Huy, I'm reaching out to discuss your project: "${project}".`);
+            handleChangeField('message', `${t('contactPage.projectTemplate')}"${project}".`);
         }
-    }, [searchParams]);
+    }, [searchParams, t]);
 
     useEffect(() => {
         const handleResize = () => setWindowWidth(window.innerWidth);
@@ -73,26 +75,30 @@ const Contact = () => {
             minHeight: isMobile ? "auto" : "600px",
             borderRadius: isMobile ? "16px" : "24px",
         }}>
-            {/* Left Panel: Contact Information & Professional Greeting */}
+            {/* Left Panel */}
             <div style={{
                 ...ContactStyle.leftPanel,
                 width: isMobile ? "100%" : "40%",
                 padding: isMobile ? "32px 24px" : "48px 40px",
             }}>
                 <div style={ContactStyle.leftTop}>
-                    <h2 style={ContactStyle.heading}>Let's Connect</h2>
+                    <h2 style={ContactStyle.heading}>{t('contactPage.heading')}</h2>
                     <p style={ContactStyle.subheading}>
-                        I am always open to discussing new projects, collaboration opportunities, or general inquiries. Feel free to fill out the form or reach out directly.
+                        {t('contactPage.subheading')}
                     </p>
 
                     <div style={ContactStyle.infoList}>
                         <div style={ContactStyle.infoItem}>
-                            <h3 style={ContactStyle.infoLabel}>Email</h3>
+                            <h3 style={ContactStyle.infoLabel}>{t('contactPage.emailLabel')}</h3>
                             <EmailLink email="t.huy030826@gmail.com" />
                         </div>
                         <div style={ContactStyle.infoItem}>
-                            <h3 style={ContactStyle.infoLabel}>Location</h3>
-                            <span style={ContactStyle.infoValue}>Ho Chi Minh City, Vietnam</span>
+                            <h3 style={ContactStyle.infoLabel}>{t('contactPage.phoneLabel')}</h3>
+                            <span style={ContactStyle.infoValue}>093.222.4895</span>
+                        </div>
+                        <div style={ContactStyle.infoItem}>
+                            <h3 style={ContactStyle.infoLabel}>{t('contactPage.locationLabel')}</h3>
+                            <span style={ContactStyle.infoValue}>{t('contactPage.location')}</span>
                         </div>
                     </div>
                 </div>
@@ -100,7 +106,7 @@ const Contact = () => {
                 <div style={ContactStyle.socialLinks}>
                     <SocialLink label="LinkedIn" href="https://www.linkedin.com/in/tan-huy-673408342/" />
                     <SocialLink label="GitHub" href="https://github.com" />
-                    <SocialLink label="Resume" href="#" />
+                    <SocialLink label={t('contactPage.resume')} href="#" />
                 </div>
             </div>
 
@@ -110,8 +116,8 @@ const Contact = () => {
                 padding: isMobile ? "32px 24px" : "48px 60px",
             }}>
                 <Input
-                    title="Name*"
-                    placeholder="e.g. Jane Smith"
+                    title={t('contactPage.form.nameLabel')}
+                    placeholder={t('contactPage.form.namePlaceholder')}
                     titleStyle={ContactStyle.inputTitle}
                     value={name}
                     onChangeText={(val) => handleChangeField("name", val)}
@@ -119,8 +125,8 @@ const Contact = () => {
                 />
 
                 <Input
-                    title="Email*"
-                    placeholder="e.g. jane.smith@example.com"
+                    title={t('contactPage.form.emailLabel')}
+                    placeholder={t('contactPage.form.emailPlaceholder')}
                     titleStyle={ContactStyle.inputTitle}
                     value={email}
                     onChangeText={(val) => handleChangeField("email", val)}
@@ -128,8 +134,8 @@ const Contact = () => {
                 />
 
                 <Input
-                    title="Message"
-                    placeholder="Tell me about your project requirements, goals, or questions..."
+                    title={t('contactPage.form.messageLabel')}
+                    placeholder={t('contactPage.form.messagePlaceholder')}
                     statusCountText={true}
                     maxLength={200}
                     multiline={true}
@@ -156,7 +162,7 @@ const Contact = () => {
                     }}
                     disabled={!isFormValid || isLoading}
                 >
-                    {isLoading ? "Sending..." : "Send Message"}
+                    {isLoading ? t('contactPage.form.sending') : t('contactPage.form.send')}
                 </button>
             </div>
         </div>

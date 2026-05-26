@@ -11,11 +11,11 @@ const About = () => {
     const { highlightedId, btnHover, setBtnHover, opentIndex, setOpentIndex } = useAbout();
     const { t } = useTranslation()
 
-    const skillsData = t('skillsData', { returnObjects: true }) as any[];
-    const projectsData = t('projectsData', { returnObjects: true }) as any[];
-    const educationData = t('educationData', { returnObjects: true }) as any[];
-    const awardsData = t('awardsData', { returnObjects: true }) as any[];
-    const clientFAQs = t('clientFAQs', { returnObjects: true }) as any[];
+    const skillsData = t('aboutPage.skillsData', { returnObjects: true }) as any[];
+    const projectsData = t('aboutPage.projectsData', { returnObjects: true }) as any[];
+    const educationData = t('aboutPage.educationData', { returnObjects: true }) as any[];
+    const awardsData = t('aboutPage.awardsData', { returnObjects: true }) as any[];
+    const clientFAQs = t('aboutPage.clientFAQs', { returnObjects: true }) as any[];
 
     return (
         <section id="about" style={styles.mainSection}>
@@ -251,7 +251,7 @@ const About = () => {
                         ))}
                     </div>
                 </div>
-                <div style={styles.sectionWrapper}>
+                <div id="FAQ" style={styles.sectionWrapper}>
                     <div style={sectionBadge}>
                         <svg width="10" height="10" viewBox="0 0 24 24" fill="currentColor">
                             <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5" />

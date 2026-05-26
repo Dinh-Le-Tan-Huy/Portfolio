@@ -15,7 +15,7 @@ const KEY_TECH_FILTER = /Helcim|Socket\.IO|Appstore|Mapbox|Flutter/i
 export const Home = () => {
     const { t } = useTranslation()
     const hrFAQs = t('homePage.hrFAQs', { returnObjects: true }) as any[]
-    const projectsData = t('projectsData', { returnObjects: true }) as any[]
+    const projectsData = t('aboutPage.projectsData', { returnObjects: true }) as any[]
     const skillsData = t('homePage.skillsData', { returnObjects: true }) as any[]
     const typewriterWords = t('homePage.typewriter', { returnObjects: true }) as string[]
 
