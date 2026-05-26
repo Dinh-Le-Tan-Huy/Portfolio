@@ -5,7 +5,8 @@ import { styles } from "./FooterStyle";
 const links = [
     { label: 'Email', href: 'mailto:t.huy030826@gmail.com' },
     { label: 'LinkedIn', href: 'https://www.linkedin.com/in/tan-huy-673408342/' },
-    { label: 'Instagram', href: 'https://instagram.com' },
+    { label: 'Instagram', href: 'https://www.instagram.com/t.huy0308/' },
+    { label: 'Github', href: 'https://github.com/Dinh-Le-Tan-Huy' },
     { label: 'Facebook', href: 'https://www.facebook.com/HuyLe0326/' },
 ];
 
