@@ -9,6 +9,7 @@ export const useAbout = () => {
     const highlightedId = useSelector((state: RootState) => state.about.highlightedId);
     
     const [btnHover, setBtnHover] = useState(false);
+    const [opentIndex, setOpentIndex] = useState<number | null>(null);
     const [searchParams] = useSearchParams();
 
     useEffect(() => {
@@ -41,5 +42,7 @@ export const useAbout = () => {
         highlightedId,
         btnHover,
         setBtnHover,
+        opentIndex,
+        setOpentIndex,
     };
 };

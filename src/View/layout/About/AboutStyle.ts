@@ -134,4 +134,13 @@ export const styles = {
         gap: '20px',
         width: '100%',
     } as CSSProperties,
+
+    faqContainer: {
+        width: '100%',
+        maxWidth: '760px',
+        margin: '0 auto',
+        display: 'flex',
+        flexDirection: 'column',
+        gap: '12px',
+    } as CSSProperties,
 }

@@ -1,0 +1,303 @@
+{
+    "skillsData": [
+        {
+            "id": "skills_lang_01",
+            "title": "Ngôn ngữ lập trình",
+            "des": "Các ngôn ngữ cốt lõi",
+            "responsibilities": [
+                "JavaScript",
+                "TypeScript",
+                "Dart",
+                "Java",
+                "Kotlin"
+            ]
+        },
+        {
+            "id": "skills_fw_02",
+            "title": "Frameworks & Thư viện",
+            "des": "Phát triển Web & Mobile hiện đại",
+            "responsibilities": [
+                "React.js & Next.js",
+                "React Native",
+                "Flutter",
+                "Jetpack Compose"
+            ]
+        },
+        {
+            "id": "skills_be_03",
+            "title": "Backend & Cơ sở dữ liệu",
+            "des": "Phía máy chủ & Hạ tầng",
+            "responsibilities": [
+                "Node.js",
+                "Express",
+                "MongoDB"
+            ]
+        },
+        {
+            "id": "skills_concepts_04",
+            "title": "Kiến trúc & Khái niệm",
+            "des": "Thiết kế phần mềm & Phương pháp luận",
+            "responsibilities": [
+                "Vòng đời ứng dụng (App Life-cycle)",
+                "Kiến trúc sạch (Clean Architecture)",
+                "MVVM (Model-View-ViewModel)",
+                "Tích hợp RESTful API",
+                "Quy trình Agile/Scrum"
+            ]
+        },
+        {
+            "id": "skills_tools_05",
+            "title": "Công cụ phát triển",
+            "des": "Công cụ năng suất & Cộng tác",
+            "responsibilities": [
+                "Figma (Thiết kế UI/UX)",
+                "Postman & Swagger",
+                "Docker",
+                "GitHub (Quản lý phiên bản)",
+                "Jira & Trello (Quản lý dự án)"
+            ]
+        }
+    ],
+    "projectsData": [
+        {
+            "id": "proj_homenest_01",
+            "title": "Công ty HomeNest Software",
+            "time": "Tháng 8/2024 - Hiện tại",
+            "des": "Lập trình viên Web/Mobile",
+            "responsibilities": [
+                "Phát triển ứng dụng di động đa nền tảng (React Native, TypeScript) và nền tảng web chuẩn SEO (Next.js, React).",
+                "Cấu hình WordPress CMS và GraphQL cho nội dung web động.",
+                "Tích hợp cổng thanh toán Helcim qua JS Bridge/WebView với đồng bộ hóa thời gian thực.",
+                "Tích hợp react-i18next để đa ngôn ngữ hóa (i18n) ứng dụng React Native.",
+                "Tích hợp Socket.IO với RTK Query để xử lý chat realtime không độ trễ, cập nhật bộ nhớ đệm (cache) trực tiếp và đăng ký theo yêu cầu.",
+                "Xây dựng RESTful APIs và các dịch vụ backend bằng Node.js, Prisma và PostgreSQL (quản lý qua pgAdmin & Docker), triển khai các luồng xác thực bảo mật (JWT, OTP, Google Login).",
+                "Thiết kế tài liệu API tương tác qua Swagger UI, đảm bảo việc test API và đồng bộ Frontend-Backend diễn ra liền mạch.",
+                "Hỗ trợ triển khai ứng dụng lên App Store và Google Play, xử lý các vấn đề từ chối kỹ thuật (technical rejections) từ store.",
+                "Làm việc trong môi trường Agile/Scrum, sử dụng Jira để theo dõi tiến độ công việc và họp hằng ngày (daily stand-ups)."
+            ]
+        },
+        {
+            "id": "proj_choixanh_02",
+            "title": "Công ty Choi Xanh Media",
+            "time": "Tháng 11/2024 - Tháng 1/2025",
+            "des": "Lập trình viên Mobile",
+            "responsibilities": [
+                "Phát triển ứng dụng giao đồ ăn Full-stack, xây dựng giao diện mobile hiệu suất cao (Flutter, Dart) và dịch vụ backend dễ mở rộng (Node.js, MongoDB).",
+                "Thiết kế kiến trúc front-end mobile: Áp dụng Service Layer và AutoRoute để điều hướng mượt mà, đồng thời nâng cao UI/UX với Flutter Animations, tối ưu hóa danh sách (ListView.builder) và xử lý media động (ImageKit).",
+                "Xây dựng backend APIs & luồng tích hợp bảo mật: Phát triển RESTful APIs bằng Express, tích hợp xác thực đa phương thức (Social Login & Email OTP) và sử dụng Mapbox API cho các tính năng giao hàng dựa trên vị trí.",
+                "Tối ưu hóa quy trình triển khai: Tự động hóa luồng CI/CD bằng Codemagic và GitHub Actions để đảm bảo luồng dữ liệu ổn định và release nhanh chóng trong môi trường Agile/Jira."
+            ]
+        }
+    ],
+    "educationData": [
+        {
+            "id": "edu_01",
+            "title": "Đào tạo chuyên môn",
+            "des": "Chứng chỉ & Khóa học chuyên sâu",
+            "responsibilities": [
+                "Khóa học Điện toán đám mây AWS – Udemy | 2026",
+                "Lập trình viên React Native – Trung tâm Tin học KHTN | 2025"
+            ]
+        },
+        {
+            "id": "edu_lang_02",
+            "title": "Ngoại ngữ",
+            "des": "Năng lực tiếng Anh",
+            "responsibilities": [
+                "TOEIC 600 (Chứng chỉ chính thức)"
+            ]
+        }
+    ],
+    "awardsData": [
+        {
+            "id": "award_01",
+            "title": "Học bổng học thuật",
+            "des": "Trường Cao đẳng Lý Tự Trọng (LTTC)",
+            "responsibilities": [
+                "Đạt học bổng 50% học phí nhờ thành tích học tập xuất sắc.",
+                "Được ghi nhận vì duy trì điểm trung bình (GPA) cao và tích cực đóng góp cho cộng đồng học tập."
+            ]
+        },
+        {
+            "id": "award_02",
+            "title": "Top 5 Đồ án tốt nghiệp",
+            "des": "Triển lãm Ứng dụng Di động LTTC (2024)",
+            "responsibilities": [
+                "Được vinh danh là một trong 5 đồ án xuất sắc nhất trong buổi triển lãm tốt nghiệp.",
+                "Được đánh giá dựa trên thiết kế UI/UX, độ phức tạp kỹ thuật và khả năng giải quyết vấn đề."
+            ]
+        }
+    ],
+    "clientFAQs": [
+        {
+            "question": "Team nhận thực hiện những loại dự án nào?",
+            "answer": "Chúng tôi nhận phát triển đa dạng các sản phẩm số, từ Website doanh nghiệp, Portfolio cá nhân, Landing page, Mobile App (iOS/Android) đến các hệ thống Web/App được thiết kế theo yêu cầu riêng."
+        },
+        {
+            "question": "Hình thức thanh toán cho dự án diễn ra như thế nào?",
+            "answer": "Chúng tôi linh hoạt với 2 hình thức: Trọn gói (Fixed-price) cho dự án đã chốt sẵn tính năng, hoặc Thanh toán theo giai đoạn (Milestone-based) – hoàn thành và nghiệm thu đến đâu, thanh toán đến đó."
+        },
+        {
+            "question": "Quy trình bàn giao sản phẩm gồm những gì?",
+            "answer": "Gồm 3 bước minh bạch: Khách hàng nghiệm thu thực tế (UAT) trên bản Beta, bàn giao toàn bộ tài sản số (Source Code, Database, tài khoản App Store/Google Play), và hướng dẫn trực tiếp để khách hàng tự tin vận hành hệ thống."
+        },
+        {
+            "question": "Team có hỗ trợ bảo trì sau khi hoàn thành không?",
+            "answer": "Chắc chắn rồi. Sau khi bàn giao, chúng tôi cung cấp một khoảng thời gian bảo trì cam kết để giải quyết mọi vấn đề kỹ thuật, đảm bảo server ổn định và hỗ trợ team của bạn vận hành trơn tru."
+        }
+    ],
+    "nav": {
+        "home": "Trang chủ",
+        "about": "Giới thiệu",
+        "faq": "Câu hỏi",
+        "contact": "Liên hệ"
+    },
+    "lang": {
+        "label": "Ngôn ngữ",
+        "en": "English",
+        "vi": "Tiếng Việt"
+    },
+    "faqs": {
+        "title": "Câu hỏi thường gặp",
+        "hr_q1": "Bạn có nhận dự án freelance không?"
+    },
+    "aboutPage": {
+        "greeting": "Xin chào, ",
+        "nameIntro": "tôi là Huy",
+        "introText": "Tôi là Kỹ sư phần mềm Full-Stack với nhiều kinh nghiệm trong việc phát triển ứng dụng web và di động. Tôi có thể làm việc độc lập hoặc cộng tác tốt trong một nhóm. Bạn cần thực hiện một dự án lớn? Tôi cũng điều hành một nhóm freelance chuyên nghiệp sẵn sàng cung cấp các giải pháp end-to-end, bao gồm mọi thứ từ thiết kế UI/UX đến phát triển web và ứng dụng hoàn chỉnh.",
+        "contactMe": "Liên hệ với tôi",
+        "badges": {
+            "education": "Học vấn",
+            "skills": "Kỹ năng",
+            "experience": "Kinh nghiệm",
+            "certificates": "Chứng chỉ",
+            "awards": "Giải thưởng",
+            "faq": "Câu hỏi"
+        },
+        "titles": {
+            "academicBackground": "Nền tảng Học vấn",
+            "technicalSkills": "Kỹ năng Kỹ thuật",
+            "professionalHistory": "Kinh nghiệm Làm việc",
+            "coursesAndLanguages": "Khóa học & Ngoại ngữ",
+            "honorsAndRecognition": "Danh hiệu & Giải thưởng",
+            "frequentlyAskedQuestions": "Câu hỏi Thường gặp"
+        }
+    },
+    "homePage": {
+        "statusBadge": "Sẵn sàng cho các cơ hội mới",
+        "greeting1": "Xin chào, tôi là ",
+        "greeting2": ",",
+        "greeting3": "một ",
+        "typewriter": [
+            "Lập trình viên Full Stack",
+            "Lập trình viên Mobile",
+            "Lập trình viên Web"
+        ],
+        "summary": "Xây dựng các giải pháp toàn diện và có khả năng mở rộng bằng hệ sinh thái JS/TS — React Native, Next.js, Node.js. Chuyên môn về RESTful APIs, tích hợp bảo mật, hệ thống thời gian thực, và cung cấp các ứng dụng hướng sản phẩm từ kiến trúc cơ sở dữ liệu đến giao diện người dùng (UI) tối ưu.",
+        "askMe": "Hỏi tôi bất cứ điều gì ↓",
+        "location": "Thành phố Hồ Chí Minh, Việt Nam",
+        "badges": {
+            "education": "Học vấn",
+            "skills": "Kỹ năng",
+            "work": "Công việc",
+            "faqs": "Câu hỏi"
+        },
+        "titles": {
+            "academicBackground": "Nền tảng Học vấn",
+            "technicalSkills": "Kỹ năng Kỹ thuật",
+            "experience": "Kinh nghiệm",
+            "frequentlyAsked": "Câu hỏi Thường gặp"
+        },
+        "hrFAQs": [
+            {
+                "question": "Tại sao sử dụng cả React Native và Flutter?",
+                "answer": "Tôi chọn công nghệ dựa trên yêu cầu dự án. React Native lý tưởng khi cần chia sẻ logic với nền tảng web (Next.js), trong khi Flutter là sự lựa chọn hàng đầu của tôi để xử lý các UI phức tạp và hoạt ảnh (animations) mượt mà."
+            },
+            {
+                "question": "Làm thế nào bạn quản lý phát triển Full-stack hiệu quả?",
+                "answer": "Cách tiếp cận của tôi là ưu tiên kiến trúc (architecture-first). Tôi thiết kế cơ sở dữ liệu và viết tài liệu Swagger UI để chốt luồng dữ liệu trước khi xây dựng UI. Ngoài ra, tôi tận dụng các luồng CI/CD (Codemagic, GitHub Actions) để tự động hóa việc triển khai."
+            },
+            {
+                "question": "Làm thế nào bạn tối ưu hóa hiệu suất ứng dụng và ngăn ngừa rò rỉ bộ nhớ (memory leaks)?",
+                "answer": "Tôi quản lý chặt chẽ Vòng đời ứng dụng (App Life-cycle). Ví dụ: tôi tích hợp Socket.IO trực tiếp vào RTK Query và quản lý kết nối WebSocket dựa trên việc mount/unmount màn hình. Điều này loại bỏ rò rỉ bộ nhớ và đảm bảo khung hình ổn định ở mức 60FPS."
+            },
+            {
+                "question": "Làm thế nào bạn cộng tác trong một nhóm Agile/Scrum?",
+                "answer": "Tôi tin vào việc giao tiếp thông qua quy trình và tài liệu. Việc theo dõi công việc trên Jira, review code qua Git PRs, và duy trì tài liệu Swagger UI cập nhật giúp đảm bảo các team Mobile, Web và Backend luôn đồng bộ hoàn hảo."
+            },
+            {
+                "question": "Mục tiêu nghề nghiệp của bạn trong 1-2 năm tới là gì?",
+                "answer": "Phát triển thành một Kỹ sư chữ T (T-shaped Engineer): chuyên sâu về Mobile Đa nền tảng & Tối ưu Hiệu suất, đồng thời mở rộng kỹ năng hạ tầng Cloud (hiện đang học AWS) để có thể độc lập thiết kế kiến trúc và triển khai các hệ thống lớn."
+            }
+        ],
+        "skillsData": [
+            {
+                "id": "skills_lang_01",
+                "title": "Ngôn ngữ",
+                "des": "Ngôn ngữ Lập trình",
+                "responsibilities": [
+                    "JavaScript & TypeScript",
+                    "Dart",
+                    "Java & Kotlin"
+                ]
+            },
+            {
+                "id": "skills_fw_02",
+                "title": "Frameworks",
+                "des": "Thư viện & UI Frameworks",
+                "responsibilities": [
+                    "React.js & Next.js",
+                    "React Native",
+                    "Flutter",
+                    "Jetpack Compose"
+                ]
+            },
+            {
+                "id": "skills_be_03",
+                "title": "Backend",
+                "des": "Hạ tầng Backend",
+                "responsibilities": [
+                    "Node.js",
+                    "Express",
+                    "MongoDB"
+                ]
+            },
+            {
+                "id": "skills_04",
+                "title": "Công cụ",
+                "des": "",
+                "responsibilities": [
+                    "Figma",
+                    "Postman & Swagger UI",
+                    "Docker & Git",
+                    "Jira & Trello"
+                ]
+            }
+        ]
+    },
+    "cardInfo": {
+        "educationData": [
+            {
+                "id": 1,
+                "school": "Đại học Công nghệ Thông tin – UIT",
+                "degree": "Cử nhân Khoa học Máy tính",
+                "year": "2025",
+                "icon": "🎓"
+            },
+            {
+                "id": 2,
+                "school": "Trường Cao đẳng Lý Tự Trọng – LTTC",
+                "degree": "Cao đẳng Công nghệ Thông tin",
+                "year": "2021 – 2024",
+                "icon": "💻"
+            },
+            {
+                "id": 3,
+                "school": "Trường Cao đẳng Lý Tự Trọng – LTTC",
+                "degree": "Trung cấp An ninh mạng",
+                "year": "2018 – 2021",
+                "icon": "🔒"
+            }
+        ]
+    }
+}

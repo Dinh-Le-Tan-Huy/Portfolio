@@ -1,4 +1,5 @@
 import { CardInfoStyle } from './CardInfoStyle';
+import { useTranslation } from 'react-i18next';
 
 interface EducationItem {
     id: number;
@@ -8,31 +9,10 @@ interface EducationItem {
     icon: string;
 }
 
-const educationData: EducationItem[] = [
-    {
-        id: 1,
-        school: "University of Information Technology – UIT",
-        degree: "Bachelor of Science in Computer Science",
-        year: "2025",
-        icon: "🎓",
-    },
-    {
-        id: 2,
-        school: "Ly Tu Trong College – LTTC",
-        degree: "Associate of Science in Information Technology",
-        year: "2021 – 2024",
-        icon: "💻",
-    },
-    {
-        id: 3,
-        school: "Ly Tu Trong College – LTTC",
-        degree: "Intermediate Certificate in Cybersecurity",
-        year: "2018 – 2021",
-        icon: "🔒",
-    },
-];
-
 const EducationTimeline = () => {
+    const { t } = useTranslation();
+    const educationData = t('cardInfo.educationData', { returnObjects: true }) as EducationItem[];
+
     return (
         <div style={CardInfoStyle.wrapper}>
             {educationData.map((item: EducationItem, idx: number) => (

@@ -1,14 +1,14 @@
 export const HeaderNav = [
     {
-        name: "Home",
+        key: "home",
         path: "/",
     },
     {
-        name: "About",
+        key: "about",
         path: "/about",
     },
     {
-        name: "FAQ",
+        key: "faq",
         path: "/#FAQ",
     },
 ];
